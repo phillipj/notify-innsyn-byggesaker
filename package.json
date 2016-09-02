@@ -1,0 +1,14 @@
+{
+  "name": "notify-innsyn-byggesaker",
+  "version": "1.0.0",
+  "description": "Applikasjon for SMS-utsende ved endring i byggesaker",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "checksum": "^0.1.1",
+    "cheerio": "^0.22.0",
+    "request": "^2.74.0",
+    "twilio": "^2.10.0"
+  }
+}
