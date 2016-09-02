@@ -38,3 +38,5 @@ function pollAndNotify() {
 pollAndNotify()
 // then start to poll every hour for updates
 setInterval(pollAndNotify, oneHour)
+
+twilioClient.sendSms(smsRecipientNr, 'notify-innsyn-byggsaker is alive and kicking!')
